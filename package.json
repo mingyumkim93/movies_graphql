@@ -1,0 +1,27 @@
+{
+  "name": "movie_graphql",
+  "version": "1.0.0",
+  "description": "movie API with graphql and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingyumkim93/movies_graphql.git"
+  },
+  "author": "Mingyum Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mingyumkim93/movies_graphql/issues"
+  },
+  "homepage": "https://github.com/mingyumkim93/movies_graphql#readme",
+  "dependencies": {
+    "babel-node": "0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.1"
+  }
+}
