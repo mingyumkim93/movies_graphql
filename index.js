@@ -1,5 +1,5 @@
-const GraphQLServer = require("graphql-yoga"); 
-const resolvers = require ("./graphql/resolver");
+import { GraphQLServer } from "graphql-yoga"; 
+import resolvers from "./graphql/resolver";
 
 const server = new GraphQLServer({
     typeDefs: `type Movie {
@@ -21,4 +21,4 @@ const server = new GraphQLServer({
     resolvers
   });
 
-server.start(process.env.PORT, ()=> console.log("Graphql Server Running"))
+server.start(process.env.PORT,()=> console.log("Graphql Server Running"))
